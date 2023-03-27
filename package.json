@@ -1,0 +1,16 @@
+{
+  "name": "responsive-parallex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass scss/style.scss css/style.css --w  --source-map true --output-style compressed",
+    "parallex": "node-sass scss/parallex.scss css/parallex.css --w  --source-map true --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
